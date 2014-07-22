@@ -1,0 +1,23 @@
+<h2>Rounded corners</h2>
+<ul>
+  <li>3 extra container elements</li>
+  <li>4 background images, one for each corner, or one huge image</li>
+</ul>
+<pre><code><div class="foo">
+  <div class="inner">
+    <div class="inner2"> <div class="inner3"></div> </div>
+  </div>
+</div>
+</code></pre>
+
+<pre><code>.foo {
+background: url(img/corner_tr.png) top right no-repeat; }
+
+.foo .inner {
+background: url(img/corner_br.png) bottom right no-repeat; }
+
+.foo .inner2 {
+background: url(img/corner_tl.png) top left no-repeat; }
+
+.foo .inner3 {
+background: url(img/corner_bl.png) bottom left no-repeat; }</code></pre>
