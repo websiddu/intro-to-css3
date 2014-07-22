@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "CSS3 Animations",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "websiddu",
+    "githubRepository": "css3_animations"
+  }
+}
